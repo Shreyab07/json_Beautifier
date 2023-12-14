@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Beautifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center">JSON Beautifier</h1>
+
+    <div class="form-group">
+        <label for="jsonInput">Enter JSON:</label>
+        <textarea id="jsonInput" class="form-control" rows="10" placeholder="Enter your JSON here..."></textarea>
+    </div>
+
+    <button id="beautifyBtn" class="btn btn-primary">Beautify</button>
+
+    <div id="result" class="mt-4">
+        <h2 class="text-center">Beautified JSON:</h2>
+        <pre id="beautifiedJson"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
